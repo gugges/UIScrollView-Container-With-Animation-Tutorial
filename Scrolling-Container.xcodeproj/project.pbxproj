@@ -14,7 +14,7 @@
 		17E911A91B7A3F78009FDA9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E911A81B7A3F78009FDA9E /* Images.xcassets */; };
 		17E911AC1B7A3F78009FDA9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E911AA1B7A3F78009FDA9E /* LaunchScreen.xib */; };
 		17E911B81B7A3F78009FDA9E /* Scrolling_ContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E911B71B7A3F78009FDA9E /* Scrolling_ContainerTests.m */; };
-		17E911C61B7A4239009FDA9E /* ScrollViewPassThrough.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E911C51B7A4239009FDA9E /* ScrollViewPassThrough.m */; };
+		17E911C61B7A4239009FDA9E /* JGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E911C51B7A4239009FDA9E /* JGScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		17E911B11B7A3F78009FDA9E /* Scrolling-ContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrolling-ContainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E911B61B7A3F78009FDA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17E911B71B7A3F78009FDA9E /* Scrolling_ContainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scrolling_ContainerTests.m; sourceTree = "<group>"; };
-		17E911C41B7A4239009FDA9E /* ScrollViewPassThrough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewPassThrough.h; sourceTree = "<group>"; };
-		17E911C51B7A4239009FDA9E /* ScrollViewPassThrough.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewPassThrough.m; sourceTree = "<group>"; };
+		17E911C41B7A4239009FDA9E /* JGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGScrollView.h; sourceTree = "<group>"; };
+		17E911C51B7A4239009FDA9E /* JGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 		171550E01B90E9C600AA9B97 /* Categories and Overrides */ = {
 			isa = PBXGroup;
 			children = (
-				17E911C41B7A4239009FDA9E /* ScrollViewPassThrough.h */,
-				17E911C51B7A4239009FDA9E /* ScrollViewPassThrough.m */,
+				17E911C41B7A4239009FDA9E /* JGScrollView.h */,
+				17E911C51B7A4239009FDA9E /* JGScrollView.m */,
 			);
 			name = "Categories and Overrides";
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			files = (
 				17E911A41B7A3F78009FDA9E /* ViewController.m in Sources */,
 				17E911A11B7A3F78009FDA9E /* AppDelegate.m in Sources */,
-				17E911C61B7A4239009FDA9E /* ScrollViewPassThrough.m in Sources */,
+				17E911C61B7A4239009FDA9E /* JGScrollView.m in Sources */,
 				17E9119E1B7A3F78009FDA9E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

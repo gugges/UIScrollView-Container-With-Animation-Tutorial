@@ -1,11 +1,12 @@
 
-#import "ScrollViewPassThrough.h"
+#import "JGScrollView.h"
 
-@implementation ScrollViewPassThrough
+@implementation JGScrollView
 
-- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
-    
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
+{
     for (UIView *subview in self.subviews) {
+        
         CGPoint relativePoint = [subview convertPoint:point fromView:self];
         
         if ([subview pointInside:relativePoint withEvent:event]) {
